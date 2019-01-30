@@ -27,6 +27,6 @@ const getEvents = async () => {
 }
 
 module.exports = {
-	url: 'https://sf.funcheap.com/events/',
+	url: URL_TO_SCRAPE,
 	getEvents: getEvents
 }

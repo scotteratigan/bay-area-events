@@ -1,9 +1,11 @@
-//var mongojs = require('mongoose');
-// var axios = require('axios');
-// var cheerio = require('cheerio');
+const sfFunCheap = require('./sf.funcheap.com.js');
+const eventBrite = require('./eventbrite.com.js');
+//const doTheBay = require('./dothebay.com.js');
 
-var sfFunCheap = require('./sf.funcheap.com.js');
-var eventBrite = require('./eventbrite.com.js');
+// (async () => { // this one isn't working - getting a 500 error - JS may be required, cheerio is probably insufficient to scrape
+// 	let doTheBayEvents = await doTheBay.getEvents();
+// 	console.log(doTheBayEvents);
+// })();
 
 (async () => {
 	let eventBriteEvents = await eventBrite.getEvents();
