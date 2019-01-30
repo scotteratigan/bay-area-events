@@ -14,8 +14,8 @@ const getEvents = async () => {
 				// first, try to find date (listed vertically, not attached to each event)
 				tdDate = $(element).find('h2').text();
 				if (tdDate) {
-					eventDate = tdDate;
-					//console.log(eventDate);
+					eventDate = tdDate; // todo: convert date into universal format
+					// also, I need to grab the event time
 				}
 				const anchorTag = $(element).find('span').find('a');
 				const eventURL = anchorTag.attr('href');
