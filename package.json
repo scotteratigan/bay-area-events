@@ -1,0 +1,28 @@
+{
+  "name": "bay-area-events",
+  "version": "1.0.0",
+  "description": "Compiles various local events.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotteratigan/bay-area-events.git"
+  },
+  "keywords": [
+    "events",
+    "scraping",
+    "webscraping"
+  ],
+  "author": "Scott Ratigan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotteratigan/bay-area-events/issues"
+  },
+  "homepage": "https://github.com/scotteratigan/bay-area-events#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
